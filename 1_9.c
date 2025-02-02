@@ -12,6 +12,7 @@ int main()
     while ((c = getchar()) != EOF)
     {
         ++nc;
+        
         if (c == '\n')
             ++nl;
         
